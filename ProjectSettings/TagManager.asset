@@ -7,6 +7,8 @@ TagManager:
   - CinemachineTarget
   - Trap
   - Switch
+  - Key
+  - Door
   layers:
   - Default
   - TransparentFX
