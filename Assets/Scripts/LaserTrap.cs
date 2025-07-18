@@ -10,6 +10,9 @@ public class LaserTrap : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        } else if (other.CompareTag("Box"))
+        {
+            Destroy(other.gameObject);
         }
         
     }
@@ -27,4 +30,5 @@ public class LaserTrap : MonoBehaviour
         transform.position = startPos + new Vector3(0, 0, offset);
             
     }
+    
 }
