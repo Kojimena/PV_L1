@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class CursorBehaviour : MonoBehaviour
 {
-
     void Start()
     {
 
@@ -35,7 +34,12 @@ public class CursorBehaviour : MonoBehaviour
                 PlayerInventory.hasKey = true;
                 Destroy(hit.collider.gameObject);
                 Debug.Log("Llave recogida");
+            } else if (hit.collider.CompareTag("Box"))
+            {
+                hit.collider.attachedRigidbody.AddForce(-hit.normal * 5f, ForceMode.Impulse);
+                
             }
         }
     }
+    
 }

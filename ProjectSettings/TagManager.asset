@@ -9,6 +9,7 @@ TagManager:
   - Switch
   - Key
   - Door
+  - Box
   layers:
   - Default
   - TransparentFX
