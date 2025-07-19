@@ -5,7 +5,7 @@
 1. **Pick Up the Key**  
    Find and collect a hidden key required to unlock the final door.
 
-   **Move the Boxes**  
+2. **Move the Boxes**  
    Push the boxes to create a path or access elevated areas.
 
 3. **Place a Box on a Pressure Button**  
