@@ -1,11 +1,27 @@
-# Escape room with Unity
-This escape room implements 6 puzzles:
-1. Pick up a key
-2. Interaction with button to turn off the lasers.
-3. Avoid lasers.
-4. Move the boxes to grab the key.
-5. Open the door when having the key.
-6. Pressing a button with a box to deactivate a door.
+# Escape Room in Unity
 
-When the player touch a laser the level is restarted.
-The player ends the game when he opens the door with the key.
+### Puzzle flow
+
+1. **Pick Up the Key**  
+   Find and collect a hidden key required to unlock the final door.
+
+   **Move the Boxes**  
+   Push the boxes to create a path or access elevated areas.
+
+3. **Place a Box on a Pressure Button**  
+   Use a box to activate a floor button that deactivates a wall or barrier.
+
+4. **Avoid Deadly Lasers**  
+   Navigate through a laser-space. Touching a laser restarts the level.
+
+5. **Deactivate the Lasers**  
+   Find and press a control button to disable the lasers and clear a safe path.
+
+6. **Use the Key to Unlock the Door**  
+   Once the key is collected and the obstacles cleared, unlock the final door to escape.
+
+## Win Condition
+The game ends when the player uses the key to open the final door.
+
+## Fail Condition
+If the player touches any laser, the entire level resets automatically.
